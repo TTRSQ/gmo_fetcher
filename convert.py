@@ -1,7 +1,6 @@
 import gzip
 import subprocess
-from datetime import date, datetime, timezone, timedelta
-from typing_extensions import Self
+from datetime import datetime
 import json
 
 data_root = "./datas/"

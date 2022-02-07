@@ -1,11 +1,10 @@
-from datetime import date, datetime, timezone, timedelta
-import httpx
+from datetime import datetime, timedelta
 import subprocess
 
 symbol = "BTC_JPY"
 
-from_date = 20201104
-to_date = 20210416
+from_date = 20180905
+to_date = 20220207
 
 from_dt = datetime.strptime(str(from_date) + " +0900", "%Y%m%d %z")
 to_dt = datetime.strptime(str(to_date) + " +0900", "%Y%m%d %z")
